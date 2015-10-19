@@ -3,4 +3,7 @@ php:
   - 5.5
   - 5.4
   - hhvm
-script: phpunit Test.php
+install: echo "install..."
+script:
+  - echo "start script...."
+  - phpunit Test.php
